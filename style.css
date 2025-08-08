@@ -263,10 +263,20 @@
       text-align: left;
       -webkit-user-drag: none;
 }
-
 .stack #my-portofolio main .container #pfp {
-      width: 250px;
-      height: 250px;
+      width: 260px;
+      height: 260px;
+
+      padding: 8px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.stack #my-portofolio main .container #pfp img {
+      width: 100%;
+      height: 100%;
       border-radius: 50%;
       object-fit: cover;
       border: 4px solid #c4c4c46b;
@@ -279,12 +289,12 @@
       -webkit-user-drag: none;
 }
 
-.stack #my-portofolio main .container #pfp:hover {
+.stack #my-portofolio main .container #pfp:hover img {
       transform: rotateY(360deg);
 }
 
-.stack #my-portofolio main .container #pfp img {
-      user-select: none;
+.stack #my-portofolio main .container #pfp:active img {
+      transform: rotateY(360deg) scale(1.2);
 }
 
 .stack #my-portofolio main .container #info {
