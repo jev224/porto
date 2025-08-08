@@ -97,7 +97,7 @@ for (const item of stack.children) {
 
                         Object.assign(item.style, {
                               width: prevStyle.width,
-                              height: prevStyle.width,
+                              height: prevStyle.height,
                         });
 
                         maximized = false;
