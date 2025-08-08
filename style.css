@@ -261,6 +261,7 @@
       gap: 5rem;
 
       text-align: left;
+      -webkit-user-drag: none;
 }
 
 .stack #my-portofolio main .container #pfp {
@@ -275,6 +276,7 @@
       transform: rotateY(0deg);
       transition: all 1s ease; /* corrected */
       user-select: none;
+      -webkit-user-drag: none;
 }
 
 .stack #my-portofolio main .container #pfp:hover {
